@@ -12,6 +12,8 @@ public class itogClass {
 
         DogClass dog = new DogClass();
         dog.sleep();
+        dog.beFriendly();
+        dog.pay();
         System.out.println(cat.getClass());
         System.out.println(dog.getClass());
         mainAnimal ani1 = new DogClass();
@@ -28,6 +30,7 @@ public class itogClass {
         System.out.println(ani2[1].getName());
         ani2[0].eat();
         ani2[1].eat();
+
 
         neutral d = new neutral();
         d.allClasses(cat);
