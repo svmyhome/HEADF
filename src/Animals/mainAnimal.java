@@ -1,6 +1,6 @@
 package Animals;
 
-public class mainAnimal {
+abstract public class mainAnimal {
     private String name;
     private String color;
 
@@ -23,9 +23,7 @@ public class mainAnimal {
     public void sleep() {
         System.out.println("HRRRRR");
     }
-    public void eat() {
-
-    }
+    abstract public void eat();
 
 
 }
